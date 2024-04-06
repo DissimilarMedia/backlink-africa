@@ -49,8 +49,7 @@ export default function ProfileForm() {
       if (response.ok) {
         toast({
           title: 'Success!',
-          description: 'Your request has been successfully submitted.',
-          variant: 'success',
+          description: 'Your request has been successfully submitted.'
         });
         reset(); // Reset the form fields after successful submission
       } else {
