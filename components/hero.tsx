@@ -32,16 +32,18 @@ export default function Hero() {
             
           {/* Section header */}
           <div className="max-w-2xl mx-auto pb-12 md:pb-16 md:pr-8">
-            <h1 className="h1 mb-4 text-gray-900" data-aos="fade-up">A one stop shop for your sponsored content and <span className='text-gray-900 md:text-blue-600'>backlink 
+            <h1 className="h1 mb-4 text-gray-900" data-aos="fade-up">The leading marketplace for <span className='text-gray-900 md:text-blue-600'>SEO links 
+            </span> and <span className='text-gray-900 md:text-blue-600'>sponsored posts.
             <svg className="h1-underline" viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg" style={{  bottom: '-10px', left: '0', width: '40%', height: 'auto' }}>
             <path d="M0,10 Q200,0 400,10" fill="none" stroke="#3b82f6" strokeWidth="5"></path>
-          </svg></span>placement
+          </svg>
+           </span>
             
              </h1>
-            <p className="text-xl text-gray-800 mb-8" data-aos="fade-up" data-aos-delay="200">For advertisers, the BackLink Africa marketplace offers a list of high quality websites and blogs from Africa and around the world that have a robust African audience. For content creators and publishers, we make it easy for you to generate revenue from your work by connecting you to customers interested in advertising on your website.</p>
+            <p className="text-2xl text-gray-800 mb-8" data-aos="fade-up" data-aos-delay="200">We offer a broad selection of hand-picked websites and blogs with large African audiences for your linkbuilding and other SEO needs.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start Buying</a>
+                <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.backlinkafrica.com/">Start Buying</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <Link href="/seller" className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" >Become a seller</Link>

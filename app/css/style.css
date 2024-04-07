@@ -101,7 +101,6 @@
   stroke-dashoffset: 1000;
   animation: drawLine 6s forwards;
 }
-
 @keyframes drawLine {
   to {
       stroke-dashoffset: 0;

@@ -12,6 +12,7 @@ import {
   FormLabel,
   FormControl,
   FormMessage,
+  FormDescription,
 } from '../../../components/ui/form';
 
 // Define the form schema using Zod
@@ -72,10 +73,11 @@ export default function ProfileForm() {
 
    <FormProvider {...methods} >
      <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h2 text-gray-800">Hello there! Please fill in the following details and our team will review them to add your site to the platform.</h1>
+            <h1 className="h2  text-gray-700">Become a seller</h1>
+            <p className='text-gray-600 text-center'>Hello there! Please fill in the following details and our team will review them to add your site to the platform.</p>
           </div>
 
           <div className="max-w-sm mx-auto">
@@ -126,14 +128,17 @@ export default function ProfileForm() {
                 <Input {...register("allowedContentType")} className="text-gray-700 border-gray-400" />
               </FormControl>
               {errors.allowedContentType && <FormMessage>{errors.allowedContentType.message}</FormMessage>}
+              <FormDescription>Enter all allowed content types in comma seperated formart.</FormDescription>
             </FormItem>
 
             <FormItem>
               <FormLabel className='text-gray-700'>Site Description</FormLabel>
               <FormControl>
                 <Textarea {...register("siteDescription")} className="text-gray-700 border-gray-400"/>
+                
               </FormControl>
               {errors.siteDescription && <FormMessage>{errors.siteDescription.message}</FormMessage>}
+              <FormDescription>Provide full description of your site.</FormDescription>
             </FormItem>
 
             <Button type="submit" disabled={isSubmitting} className="bg-blue-600 hover:bg-blue-700">
