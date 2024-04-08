@@ -34,7 +34,7 @@ export default function Header() {
                 </Link>
               </li> */}
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-blue-600 hover:bg-blue-700 ml-3">
+                <Link href="https://app.backlinkafrica.com" className="btn-sm text-white bg-blue-600 hover:bg-blue-700 ml-3">
                   Get Started
                 </Link>
               </li>
