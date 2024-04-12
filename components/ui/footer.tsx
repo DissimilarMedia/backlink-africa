@@ -21,6 +21,7 @@ export default function Footer() {
                 layout="fixed"
               />
             </Link>
+            <h2 className='h5 text-gray-600'>The leading marketplace for SEO links and sponsored posts.</h2>
           </div>
 
           {/* Contact Information */}
