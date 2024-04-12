@@ -1,6 +1,6 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
-import Dashboard from "@/public/images/1610-removebg.png"
+import Dashboard from "@/public/images/hero.png"
 import Link from 'next/link'
 import Image from 'next/image'
 
