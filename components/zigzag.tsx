@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/theshot.png'
 import FeatImage02 from '@/public/images/shot1.png'
-import FeatImage03 from '@/public/images/short1.png'
+import FeatImage03 from '@/public/images/order.png'
 import Dashboard from "@/public/images/1610-removebg.png"
 
 
