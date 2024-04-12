@@ -11,15 +11,15 @@ export async function POST(req: NextRequest) {
     port: 587,
     secure: false,
     auth: {
-      user: "ounder@backlinkafrica.com",
-      pass: "qect segw ccva rmfg", // Ensure this is securely handled and not exposed
+      user: process.env.MAIL_EMAIL,
+      pass: process.env.MAIL_PASSWORD, // Ensure this is securely handled and not exposed
     },
   });
 
   try {
     const info = await transporter.sendMail({
       from: '"New Link Request" <founder@backlinkafrica.com>',
-      to: "founder@backlinkafrica.com",
+      to: process.env.MAIL_EMAIL,
       subject: "You have a new link posting request",
       text: `Form Details:\nFull Name: ${body.fullName}\nEmail: ${body.email}\nWebsite Name: ${body.websiteName}\nDomain Name: ${body.domainName}\nPrice Range: ${body.priceRange}\nAllowed Content Types: ${body.allowedContentType}\nDescription: ${body.siteDescription}`,
 
