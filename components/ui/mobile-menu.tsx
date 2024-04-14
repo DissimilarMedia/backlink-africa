@@ -61,7 +61,7 @@ export default function MobileMenu() {
       >
         <ul className="bg-gray-300 px-4 py-2 rounded">
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-blue-600 hover:text-blue-500 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="https://app.backlinkafrica.com" className="flex font-medium w-full text-blue-600 hover:text-blue-500 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Start Buying
             </Link>
           </li>
