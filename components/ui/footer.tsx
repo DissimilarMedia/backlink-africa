@@ -30,6 +30,7 @@ export default function Footer() {
           <div className="text-gray-600">
             <h6 className="font-medium">Company</h6>
             <ul className="text-sm">
+            <li><Link href="https://blog.backlinkafrica.com/">Blog</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/terms">Terms of Use</Link></li>
               <li><Link href="/privacy-policy">Privacy Policy</Link></li>
